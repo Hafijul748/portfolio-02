@@ -1,3 +1,147 @@
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+#hero{
+    height: 650px;
+    padding: 60px 0px;
+    background: url(images/header-bg.png);
+    background-repeat: no-repeat;
+
+}
+.hero_div{
+    width: 40%;
+    padding-left: 40px;
+    float: left;
+}
+.hero_div h2{
+    font-size: 50px;
+    margin-bottom: -30px;
+    font-weight: normal;
+}
+.hero_div h1{
+    font-size: 60px;
+    color:#EC4C7A;
+}
+.hero_div p{
+    color: dimgray;
+    margin: 30px 0px;
+    line-height: 30px;
+}
+.hero_div a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px 35px;
+    background: linear-gradient(
+    100deg, #ec4f90, #ed4b72);
+    color: white;
+    border-radius: 5px;
+}
+.hero_div img{
+    width: 100%;
+}
+#biography{
+    height: 750px;
+    padding: 60px 0px;
+    background: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position:center center;
+}
+.biography_div{
+    width: 40%;
+    padding-left: 40px;
+    float: left;
+}
+.biographySPeacial {
+    padding-left: 85px;
+    margin-top: 50px;
+}
+.biography_div img{
+    width: 100%;
+}
+.biography_div h2{
+    font-size: 50px;
+    font-weight: normal;
+}
+.biography_div p{
+    color: dimgray;
+    margin: 30px 0px;
+    line-height: 30px;
+}
+.biography_div a{
+    text-decoration: none;
+    padding: 12px 35px;
+    background: linear-gradient(
+    100deg, #ec4f90, #ed4b72);
+    color: white;
+    border-radius: 5px;
+}
+#latestWork{
+    height: 550px;
+
+    background: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#latestWork h2{
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+}
+.latest_work_div{
+    width: 30%;
+    padding-left: 40px;
+    float: left;
+    margin-top: 30px;
+}
+.latest_work_div img{
+    width: 100%;
+}
+#client_say{
+    height: 275px;
+    padding: 60px 0px;
+}
+#client_say h2{
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+}
+.client_sayCarosel {
+    text-align: center;
+    margin-top: 60px;
+}
+.client_sayCarosel h5 {
+    color: dimgray;
+    margin-top: -15px;
+}
+.client_sayCarosel p{
+    font-weight: 600;
+}
+#leav_A_message{
+    height: 175px;
+    padding: 60px 0px;
+}
+section#leav_A_message div {
+    background: linear-gradient(
+    100deg, #ec4f90, #ed4b72);
+    text-align: center;
+    width: 650px;
+    margin: auto;
+    padding: 10px 0px 30px 0px;
+    color: white;
+    border-radius: 8px;
+}
+footer{
+    padding: 40px 0px;
+}
+footer p{
+    text-align: center;
+    color: dimgray;
+}
+footer p a{
+    text-decoration: none;
+    color: dimgray;
+}
+footer p a:hover{
+    color: #ec4c7a;
 }
